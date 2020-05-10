@@ -3,6 +3,7 @@ title: VentureKids Canada
 
 description: a non-profit that teaches youth from underserved neighbourhoods how to code and launch their own business.
 
+baseurl: /VK
 
 url: https://venturekids.ca
 
@@ -37,7 +38,7 @@ kramdown:
 ## end github config
 
 
-exclude: 
+exclude:
   - docker-compose.yml
 
 sass:

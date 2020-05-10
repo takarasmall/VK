@@ -40,7 +40,7 @@ cover: cover-02
             {% for photo in program.photos %}
               <div class="col-4 item">
                 <div class="w-150 p-1 bg-white shadow-lg aos-init aos-animate rounded" data-aos="fade-up" data-aos-delay="100">
-                  <img src="/assets/img/photos/{{ photo }}.jpg" alt="..." class="img-fluid rounded">
+                  <img src="{{ site.baseurl }}/assets/img/photos/{{ photo }}.jpg" alt="..." class="img-fluid rounded">
                 </div>
               </div>
             {% endfor %}
