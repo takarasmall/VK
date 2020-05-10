@@ -1,0 +1,26 @@
+title: We help students unlock their full STEM potential
+
+description:
+  - It's no secret that computer programming and STEM careers are the fastest-growing and well-paid jobs across the country. Our mission is to help accelerates access to in-demand technical skills that will give the country's youth livingin underserved areas--the country's untapped talent resource--the skills they need to compete in tomorrow's economy. Through our free programs we teach participants front-end development, design, business development and entrepreneurship fundamentals.
+  - Meanwhile, in order to provide each of our students have what they need to suceeed, we also provide breakfast/lunch, laptops for youth who cannot afford one and access to transporation grants.
+
+services:
+  - illustration: illustration-6.png
+    title: Complimentary food
+    description: It's hard to learn on an empty stomach, which is why we provide students with breakfast, snacks and/or meals.
+
+  - illustration: illustration-8.png
+    title: Free laptops and resources
+    description: We provide students with the tools (laptops, computers, guidebooks) they need to learn.
+
+  - illustration: illustration-2.png
+    title: Industry mentors
+    description: Students learn from experienced teachers and mentors who work in today's tech industry.
+
+  # - illustration: illustration-5.png
+  #   title: Transportation
+  #   description: We provide select students with transporation grants to ensure they can attend classes, workshops and special events.
+
+  - illustration: illustration-1.png
+    title: Network
+    description: Students have access to up-to-date program material and resources so they can continue their education.

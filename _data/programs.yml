@@ -1,0 +1,23 @@
+- title: <span class="text-primary">Venture</span> Code
+  description: "Students are taught how to create their own interactive websites and multimedia stories that allow them to turn their ideas into works of art. This program includes free lunch and/or breakfast as well as access to laptops and hands-on mentors. Students are taught: HTML/CSS, digital literacy, and entrepreneurship"
+  ages: 9 to 14
+  topics:
+    - Html/Css
+    - Digital Literacy
+    - Entrepreneurship
+  photos:
+    - photo-04
+    - photo-05
+    - photo-07
+
+- title: <span class="text-primary">Venture</span> Startup
+  description: "Students are taught how to code (CSS, HTML, Javascript) and business development lessons that show them how to turn their ideas into sustainable businesses. This program includes free lunch and/or breakfast, laptops and hands-on mentors. Students are taught: product building, web development, financial literacy and growth hacking."
+  ages: 14 to 19
+  topics:
+    - Web Development
+    - Entrepreneurship
+    - Finance
+  photos:
+    - photo-06
+    - photo-03
+    - photo-08

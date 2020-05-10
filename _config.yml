@@ -1,0 +1,74 @@
+# SEO
+title: VentureKids Canada
+
+description: a non-profit that teaches youth from underserved neighbourhoods how to code and launch their own business.
+
+
+url: https://venturekids.ca
+
+# lang: en
+
+# twitter:
+#   username: venturekidscan
+#   card: summary
+
+# facebook:
+#   admins: 227304446
+
+# logo: /assets/images/logo.png
+
+# # build config
+
+# timezone: America/Toronto
+
+# future: true
+
+## github config
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+## end github config
+
+
+exclude: 
+  - docker-compose.yml
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# feed:
+#   collections:
+#     - events
+
+# collections_dir: collections
+
+# collections:
+#   events:
+#     output: true
+#     permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      twitter:
+        card: summary_large_image
+
+  # - scope:
+  #     type: events
+  #   values:
+  #     layout: event
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

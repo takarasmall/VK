@@ -1,0 +1,52 @@
+---
+layout: main
+title: Volunteer with VentureKids
+subtitle: We run community-driven workshops for the next generation that tackle startup and computer programming fundamentals.
+cover: cover-03
+---
+
+<section class="pt-10 pt-lg-9 pb-md-14 pb-lg-15 bg-light">
+  {% for volunteer in site.data.volunteers %}
+    <div class="container mb-6">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-12">
+          <h6 class="text-uppercase text-primary font-weight-bold">{{ volunteer.title }}</h6>
+          <h2>{{ volunteer.subtitle }}</h2>
+          <p class="font-size-lg text-gray-700 ">{{ volunteer.text }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+<div class="position-relative">
+  {% include svg/shape.html path="curves/curve-1" classList="shape-bottom shape-fluid-x text-white" %}
+</div>
+
+<section class="pt-8 pt-md-10" id="join">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="#join" class="btn btn-white btn-rounded-circle shadow mt-n12 mt-md-n14">
+          <i class="fe fe-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h1>
+          Join our volunteer team
+        </h1>
+
+        <p class="lead text-gray-700 mb-7 mb-md-9">
+          Sign up using the form below
+        </p>
+      </div>
+    </div>
+
+    {% include typeform.html id="g0VcDj" %}
+  </div>
+</section>
+
+

@@ -1,0 +1,37 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    {% include navbar.html %}
+
+    <section class="py-15 overlay overlay-black overlay-60 jarallax" data-jarallax data-speed=".8" class="" style="background-image: url(/assets/img/covers/{{ page.cover }}.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <h1 class="display-2 font-weight-bold text-white">{{ page.title }}</h1>
+            <p class="lead text-white mb-8">{{ page.subtitle }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="position-relative">
+      {% include svg/shape.html path="curves/curve-1" classList="shape-bottom shape-fluid-x text-white" %}
+    </div>
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+
