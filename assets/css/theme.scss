@@ -15,6 +15,12 @@ html {
   font-family: 'Bungee', cursive;
 }
 
+.navbar-brand {
+  display: flex;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
 .gallery {
   .item:nth-of-type(1) {
     @extend .mt-9;
