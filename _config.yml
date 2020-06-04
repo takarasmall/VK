@@ -31,13 +31,12 @@ incremental: false
 highlighter: rouge
 gist:
   noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+
 ## end github config
 
 
-exclude: 
+exclude:
+  - docs
   - docker-compose.yml
 
 sass:
