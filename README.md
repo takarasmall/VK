@@ -28,3 +28,7 @@ The main pages of the website are structured as per [Jekyll Pages](https://jekyl
 #### Data Files
 
 [Data Files](https://jekyllrb.com/docs/datafiles/) are used to host information about programs and content sections within the site. You can review the data files under [`_data`](./_data) directory.
+
+## Production
+
+Once development is completed, to go live, follow the instructions [provided by GitHub](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)
